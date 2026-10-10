@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">    
-      
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -9,15 +8,15 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
     <style>
-        
+
         /* Tabs Navigation - Category Buttons */
-        .tabs-container { 
+        .tabs-container {
             position: relative;
             margin-bottom: 10px;
         }
 
         .tabs-scroll {
-            display: flex;  
+            display: flex;
             flex-wrap: wrap;
             gap: 8px;
             padding: 8px 0;
@@ -171,7 +170,7 @@
             flex-direction: column;
             gap: var(--gap);
         }
-  
+
         .cafe-header {
             text-align: center;
             margin-bottom: 30px;
@@ -563,7 +562,7 @@
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.25);  
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.25);
         }
 
         .btn-primary:active {
@@ -967,37 +966,6 @@
             color: rgba(255, 255, 255, 0.3);
         }
 
-        /* Restaurant Section Selector Styling */
-        #restaurantSection {
-            appearance: auto !important;
-            -webkit-appearance: auto !important;
-            background: rgba(255, 255, 255, 0.03) !important;
-            color: #e8e6e3 !important;
-            border: 1px solid rgba(255, 255, 255, 0.05) !important;
-            padding: 12px 16px !important;
-            border-radius: 8px !important;
-            width: 100% !important;
-            font-size: 16px !important;
-            cursor: pointer !important;
-        }
-
-        #restaurantSection option {
-            background: #0b0b0d !important;
-            color: #e8e6e3 !important;
-            padding: 8px !important;
-        }
-
-        #restaurantSection:focus {
-            outline: none !important;
-            border-color: var(--gold2) !important;
-            box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.1) !important;
-        }
-
-        #restaurantSection option:checked {
-            background: linear-gradient(90deg, var(--gold1), var(--gold2)) !important;
-            color: #0b0b0d !important;
-        }
-
         .customer-details-summary {
             background: rgba(255, 255, 255, 0.02);
             border-radius: 8px;
@@ -1093,23 +1061,23 @@
             }
         }
 
-        @media print {  
+        @media print {
             body {
                 background: white;
-                color: black;  
-            }      
-            .cart-container,   
+                color: black;
+            }
+            .cart-container,
             .cart-modal,
-            .btn-ghost {  
-                display: none;    
-            }    
+            .btn-ghost {
+                display: none;
+            }
         }
     </style>
-</head>  
- 
+</head>
+
 <body>
-    <div class="container">  
-        <div class="cafe-header"> 
+    <div class="container">
+        <div class="cafe-header">
             <img src="logo.png" alt="Logo" style="width:400px; height:auto; display:block; margin:0 auto;"><br>
             <div class="cafe-name">The Lion</div>
             <div class="cafe-subtitle">Family Restaurant</div>
@@ -1129,40 +1097,8 @@
               <div class="nonveg">
                     <span class="symbol"></span>
                     <span>NON VEG</span>
-                </div> 
+                </div>
             </div>
-
-<!-- <div style="text-align:center; margin-top:15px; padding:12px 16px; border:1px solid rgba(212,175,55,0.35); border-radius:12px; background:rgba(212,175,55,0.08); color:#fff; font-size:15px; line-height:1.6; font-weight:600;">
-  <span style="color:#ffcc66; font-weight:700;">NOTE:</span><br>
-  FREE HOME DELIVERY Minimum Order Rs: 500<br>
-  <span style="color:#4CAF50;">3 KM RADIUS</span>
-</div>  -->
-
-
-
-              
-               <!-- Instagram -->
- <!-- <a href="https://www.instagram.com/hotel_aniket_family_restaurant?stkn=aGNxdGc3cno0eGs0" target="_blank"
-style="
-width:70px;
-height:70px;
-background:#E1306C;
-border-radius:50%;
-display:flex;
-align-items:center;
-justify-content:center;
-color:white;
-font-size:32px;
-text-decoration:none;
-">
-    <i class="fab fa-instagram"></i>
-</a> -->
-
-
-
-
-
-          
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -1180,7 +1116,7 @@ text-decoration:none;
                                 stroke-linecap="round" stroke-linejoin="round"></circle>
                         </svg>
                         <input id="search" placeholder="Search dishes, ingredients..." />
-                    </div> 
+                    </div>
 
                     <div class="tabs-scroll">
 <button class="tab active" data-cat="all">🍽️ ಎಲ್ಲಾ ಐಟಮ್‌ಗಳು | All Items</button>
@@ -1192,9 +1128,9 @@ text-decoration:none;
 <button class="tab" data-cat="Roti">🫓 ರೋಟಿ | Roti</button>
 <button class="tab" data-cat="Rice">🍚 ರೈಸ್ | Rice</button>
 <button class="tab" data-cat="Thali / Special">👑 ದ ಲಯನ್ ಸ್ಪೆಷಲ್ | The Lion Special</button>
-<button class="tab" data-cat="Biryani">🍗 ಬಿರಿಯಾನಿ | Biryani</button>   
-                          
-                    </div>  
+<button class="tab" data-cat="Biryani">🍗 ಬಿರಿಯಾನಿ | Biryani</button>
+
+                    </div>
                 </div>
             </div>
 
@@ -1203,41 +1139,6 @@ text-decoration:none;
             </section>
         </main>
 
-
-
-
-
-<!-- Google Review QR Section -->
-<!-- <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.05); border-radius:16px; padding:22px; margin:25px 0; text-align:center; backdrop-filter:blur(8px);">
-
-    <div style="font-size:26px; color:#ffcc66; margin-bottom:8px;">
-        ⭐⭐⭐⭐⭐
-    </div>
-
-    <h3 style="margin:0 0 10px; color:#ffcc66; font-family:'Playfair Display',serif;">
-        Scan & Write a Google Review
-    </h3>
-
-    <p style="margin:0 0 18px; color:#ddd; font-size:15px;">
-        Your feedback helps us serve you better.
-    </p>
-
-    <!-- QR Code -->
-    <!-- <img src="review-qr.jpeg" alt="Google Review QR"
-         style="width:180px; max-width:100%; border-radius:14px; background:white; padding:10px;">
-
-    <br><br>
-
-    <a href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID"
-       target="_blank"
-       style="display:inline-block; background:linear-gradient(90deg,#d4af37,#ffcc66); color:#000; text-decoration:none; padding:12px 22px; border-radius:10px; font-weight:700;">
-        Write a Review
-    </a>
-
-</div> -->
-
-
-              
         <div class="location-link-section">
             <div class="location-link-header">
                 <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1256,7 +1157,7 @@ text-decoration:none;
                 </a>
             </div>
         </div>
-    </div> 
+    </div>
 
     <div class="cart-container">
         <button class="cart-button" id="cartButton">
@@ -1265,7 +1166,7 @@ text-decoration:none;
                 <line x1="3" y1="6" x2="21" y2="6"></line>
                 <path d="M16 10a4 4 0 0 1-8 0"></path>
             </svg>
-            <span class="cart-count" id="cartCount">0</span>  
+            <span class="cart-count" id="cartCount">0</span>
         </button>
     </div>
 
@@ -1301,19 +1202,6 @@ text-decoration:none;
                 </div>
 
                 <div class="delivery-form active" id="restaurantForm">
-                    <!-- Restaurant Section Selector - NEW ADDED -->
-                    <div class="form-group" id="restaurantSectionGroup">
-                        <label class="form-label" for="restaurantSection">Select Section</label>
-                        <select id="restaurantSection" class="form-input" style="appearance: auto; background: rgba(255,255,255,0.03); color: white; border: 1px solid rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; width: 100%; font-size: 16px;">
-                            <option value="" style="background: #0b0b0d; color: #9aa0a6;">-- Select Section --</option>
-                            <option value="Family" style="background: #0b0b0d; color: #e8e6e3;">🏠 Family</option>
-                            <option value="AC BAR" style="background: #0b0b0d; color: #e8e6e3;">❄️ AC BAR</option>
-                            <option value="BAR Garden" style="background: #0b0b0d; color: #e8e6e3;">🌿 BAR Garden</option>
-                            <option value="Cottage" style="background: #0b0b0d; color: #e8e6e3;">🏡 Cottage</option>
-                            <option value="Lodging" style="background: #0b0b0d; color: #e8e6e3;">🛏️ Lodging</option>
-                        </select>
-                    </div>
-
                     <div class="form-group">
                         <label class="form-label" for="tableNumber">Table Number</label>
                         <input type="text" id="tableNumber" class="form-input" placeholder="Enter your table number (e.g., Table 5, Booth 2)" />
@@ -1356,7 +1244,7 @@ text-decoration:none;
                     Add another Item
                 </button>
                 <button class="btn-clear" id="clearCart">Clear Cart</button>
-                <button class="btn-whatsapp" id="whatsappOrder">  
+                <button class="btn-whatsapp" id="whatsappOrder">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.864 3.488" />
                     </svg>
@@ -1368,7 +1256,7 @@ text-decoration:none;
 
     <script>
         // Menu Data
-        const data = [  
+        const data = [
 
   {"id": 1, "cat": "Egg Thali", "name": "ಎಗ್ ಕರಿ ಥಾಲಿ | Egg Curry Thali", "price": "Rs. 120", "desc": "Egg Curry Thali.", "tags": ["Non-Veg", "Thali", "Egg"], "img": "img/egg_curry_thali.jpeg"},
   {"id": 2, "cat": "Egg Thali", "name": "ಎಗ್ ಮಸಾಲಾ ಥಾಲಿ | Egg Masala Thali", "price": "Rs. 130", "desc": "Egg Masala Thali.", "tags": ["Non-Veg", "Thali", "Egg"], "img": "img/egg_masala_thali.jpeg"},
@@ -1453,11 +1341,11 @@ text-decoration:none;
 
   {"id": 75, "cat": "Thali / Special", "name": "ದ ಲಯನ್ ಸ್ಪೆಷಲ್ ಥಾಲಿ | The Lion Special", "price": "Rs. 250", "desc": "The Lion Special authentic traditional thali.", "tags": ["Non-Veg", "Special", "Thali"], "img": "img/the_lion_special.jpeg"},
   {"id": 76, "cat": "Biryani", "name": "ಚಿಕನ್ ದಮ್ ಬಿರಿಯಾನಿ ಸ್ಪೆಷಲ್ | Chicken Dum Biryani Special", "price": "Rs. 180", "desc": "Authentic taste Chicken Dum Biryani Special.", "tags": ["Non-Veg", "Biryani", "Chicken"], "img": "img/chicken_dum_biryani_special.jpeg"},
-      
-        
+
+
         ];
 
-        // Cart functionality    
+        // Cart functionality
         let cart = [];
         let deliveryType = 'restaurant';
         const cartButton = document.getElementById('cartButton');
@@ -1487,24 +1375,16 @@ text-decoration:none;
             document.getElementById('homeDeliveryOption').classList.toggle('active', type === 'home');
             document.getElementById('restaurantForm').classList.toggle('active', type === 'restaurant');
             document.getElementById('homeDeliveryForm').classList.toggle('active', type === 'home');
-            // Show/hide section selector based on delivery type
-            const sectionGroup = document.getElementById('restaurantSectionGroup');
-            if (type === 'restaurant') {
-                sectionGroup.style.display = 'block';
-            } else {
-                sectionGroup.style.display = 'none';
-            }
             updateCustomerDetailsSummary();
         }
 
-        function updateCustomerDetailsSummary() {  
+        function updateCustomerDetailsSummary() {
             let summaryHTML = '';
             let showSummary = false;
 
             if (deliveryType === 'restaurant') {
                 const tableNumber = document.getElementById('tableNumber').value.trim();
-                const section = document.getElementById('restaurantSection').value;
-                if (tableNumber || section) {
+                if (tableNumber) {
                     showSummary = true;
                     summaryHTML = `
                         <div class="summary-title">
@@ -1516,7 +1396,6 @@ text-decoration:none;
                         </div>
                         <div class="summary-details">
                             <div><strong>Type:</strong> Dine-in</div>
-                            ${section ? `<div><strong>Section:</strong> ${section}</div>` : ''}
                             ${tableNumber ? `<div><strong>Table Number:</strong> ${tableNumber}</div>` : ''}
                         </div>
                     `;
@@ -1567,7 +1446,7 @@ text-decoration:none;
             if (priceValue === 0 && item.price !== 'Rs. NA') {
                 // Still add but show price as 0
             }
-            
+
             const existingItem = cart.find(cartItem => cartItem.id === item.id);
 
             if (existingItem) {
@@ -1682,11 +1561,7 @@ text-decoration:none;
 
             if (deliveryType === 'restaurant') {
                 const tableNumber = document.getElementById('tableNumber').value.trim();
-                const section = document.getElementById('restaurantSection').value;
-                if (!section) {
-                    validationPassed = false;
-                    validationMessage = 'Please select a section (Family, AC BAR, BAR Garden, Cottage, Lodging)';
-                } else if (!tableNumber) {
+                if (!tableNumber) {
                     validationPassed = false;
                     validationMessage = 'Please enter your table number';
                 }
@@ -1710,9 +1585,7 @@ text-decoration:none;
 
             if (deliveryType === 'restaurant') {
                 const tableNumber = document.getElementById('tableNumber').value.trim();
-                const section = document.getElementById('restaurantSection').value;
                 message += `**Delivery Type:** Dine-in\n`;
-                message += `**Section:** ${section}\n`;
                 message += `**Table Number:** ${tableNumber}\n\n`;
             } else {
                 const customerName = document.getElementById('customerName').value.trim();
@@ -1816,7 +1689,6 @@ const whatsappURL = `https://wa.me/919900777216?text=${encodedMessage}`;
             document.getElementById('customerName').addEventListener('input', updateCustomerDetailsSummary);
             document.getElementById('customerMobile').addEventListener('input', updateCustomerDetailsSummary);
             document.getElementById('customerAddress').addEventListener('input', updateCustomerDetailsSummary);
-            document.getElementById('restaurantSection').addEventListener('change', updateCustomerDetailsSummary);
         });
 
         window.addToCart = addToCart;
